@@ -20,15 +20,6 @@ public class Registro {
         this.pagado = pagado;
     }
 
-  
-    
-    
-    
-    
-    public LocalDate calcularFechaFin() {
-    return fechaInicio.plusDays(tipomembresia.getDuracionDias());
-}
-
     public Cliente getCliente() {
         return cliente;
     }
@@ -69,9 +60,7 @@ public class Registro {
         this.pagado = pagado;
     }
     
-    
-    
-    
-    
-    
+        
+   
+ 
 }
